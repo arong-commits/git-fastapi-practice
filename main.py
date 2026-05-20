@@ -14,7 +14,7 @@ def health():
 def get_users():
     return {
         "users": [
-            {"id": 1, "name": "감자"},
+            {"id": 1, "name": "민혁"},
             {"id": 2, "name": "FastAPI"}
         ]
     }
