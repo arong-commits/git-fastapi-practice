@@ -18,3 +18,12 @@ def get_users():
             {"id": 2, "name": "FastAPI"}
         ]
     }
+
+@app.get("/items")
+def get_items():
+    return {
+        "items": [
+            {"id": 1, "name": "Keyboard"},
+            {"id": 2, "name": "Mouse"}
+        ]
+    }
