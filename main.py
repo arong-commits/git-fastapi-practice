@@ -23,7 +23,7 @@ def get_users():
 def get_items():
     return {
         "items": [
-            {"id": 1, "name": "Keyboard"},
-            {"id": 2, "name": "Mouse"}
+            {"id": 1, "name": "Keyboard1"},
+            {"id": 2, "name": "Mouse1"}
         ]
     }
